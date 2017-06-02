@@ -1,7 +1,7 @@
 <div class="question-detail">
-  <h3>{{question.author}}</h3>
-  <h4>{{question.content}}</h4>
-  <p><strong>Notes:</strong>   {{question.notes}}</p>
+  <h3 id="bord"> by {{question.author}}</h3>
+  <h3>About {{question.content}}</h3>
+  <p id="spacing-notes"><strong>Additional Notes:</strong>   {{question.notes}}</p>
 
   <div class="answer-detail">
     <h4>Response to "{{question.question}}"</h4>
@@ -10,5 +10,6 @@
     {{/each}}
   </div>
   <br>
-  <button {{action 'delete' question}}>Delete</button>
+  <button class="btn btn-success"{{action 'delete' question}}>Delete</button>
+  <br>
 </div>

@@ -1,7 +1,7 @@
 {{#if updateQuestionForm}}
-  <h4>Update {{question.question}} by {{question.author}}</h4>
   <div>
-    <form>
+    <form class="form-larger">
+      <h4>Update {{question.question}} by {{question.author}}</h4>
       <div class="form-group">
         <label for="author">Update Author</label>
         {{input value=author id="author" placeholder=question.author}}
@@ -22,9 +22,9 @@
         {{input value=notes id="notes" placeholder=question.notes}}
       </div>
 
-      <button {{action 'update' question}}>Save</button>
+      <button class="btn btn-default"{{action 'update' question}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updateQuestionForm'}}>Update Question</button>
+  <button class="btn btn-success"{{action 'updateQuestionForm'}}>Update Question</button>
 {{/if}}

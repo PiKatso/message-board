@@ -1,12 +1,11 @@
-<h4>Peruse some Questions</h4>
-
 <div class="display">
+  <h4>Peruse some Questions</h4>
   {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </div>
 
-<h3>What is your question?</h3>
 <div class="add-question">
+  <h3>What is your question?</h3>
   {{new-question saveQuestion2="saveQuestion3"}}
 </div>

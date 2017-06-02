@@ -1,0 +1,90 @@
+/*secondary = 'Comfortaa', cursive;
+primary = 'Archivo Black', sans-serif;*/
+
+.jumbotron {
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+  color: black;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
+}
+
+#footer {
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+h4 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.display {
+  padding: 3% 15% 5% 15%;
+  margin: 3% 5% 3% 5%;
+  text-align: left;
+  font-family: sans-serif;
+  border: 1px solid lightgreen;
+  border-radius: 30px;
+}
+
+.add-question {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+}
+
+form {
+  padding: 2%;
+  margin: 3% 30% 3% 30%;
+  text-align: center;
+  background-color: lightgreen;
+  border-radius: 30px;
+}
+
+.question-details {
+  text-align: center;
+  padding: 5px;
+    margin: 0% 15% 0% 15%;
+}
+
+.update-question {
+
+}
+
+#bord {
+  border-top: 1px dotted lightgreen;
+  padding-top: 20px;
+}
+
+#spacing-notes {
+  padding-bottom: 7%;
+}
+
+.answer-detail {
+  border-top: 1px dotted lightgreen;
+  padding-top: 20px;
+}
+
+.form-larger {
+  padding: 2%;
+  margin: 3% 10% 3% 10%;
+  text-align: center;
+  background-color: lightgreen;
+  border-radius: 30px;
+}
+
+.answers-display {
+  text-align: center;
+}
