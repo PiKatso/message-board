@@ -1,0 +1,9 @@
+<h4>Peruse some Questions</h4>
+
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.author}}'s {{question.question}}</li>
+  {{/each}}
+</ul>
+
+<h3>What is your question?</h3>

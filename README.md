@@ -1,7 +1,15 @@
 # message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project uses Ember JS to create a message board. Where in the user can post questions, answers and where other users could potentially respond with answers.
+
+### Specs
+
+* _Questions should include the content of the question itself, an author, and additional notes._
+* _Answers should include the content of the answer and the author._
+* _List all questions on the homepage, displaying only the question and the name of the author._
+* _This ap should allow users to click a question, to be routed to another page containing additional information and question details._
+* _This ap should allow users to add and edit questions_
+* _This ap should allow users to add answers to a question. Answers should be linked to the corresponding question page they respond to_
 
 ## Prerequisites
 
@@ -17,15 +25,12 @@ You will need the following things properly installed on your computer.
 * `git clone <repository-url>` this repository
 * `cd message-board`
 * `npm install`
+* `bower install`
 
 ## Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
