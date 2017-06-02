@@ -2,8 +2,8 @@
 
 <div class="display">
   {{#each model as |question|}}
-     {{question-tile question=question}}
-       <!-- <p><strong>{{question.question}}</strong> ~  {{question.author}}</p> -->
+     {{question-tile question=question destroyQuestion="destroyQuestion"}}
+      
   {{/each}}
 </div>
 
