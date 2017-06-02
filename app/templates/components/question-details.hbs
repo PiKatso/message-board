@@ -1,7 +1,14 @@
-<div class="rental-detail">
+<div class="question-detail">
   <h3>{{question.author}}</h3>
   <h4>{{question.content}}</h4>
   <p><strong>Notes:</strong>   {{question.notes}}</p>
 
+  <div class="answer-detail">
+    <h4>Response to "{{question.question}}"</h4>
+    {{#each question.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+  </div>
+  <br>
   <button {{action 'delete' question}}>Delete</button>
 </div>
