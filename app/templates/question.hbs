@@ -4,18 +4,11 @@
       <div class="question-details">
         <h2>{{model.question}}</h2>
 
-        {{question-details question=model destroyQuestion="destroyQuestion"}}
+        {{question-details question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
 
         {{update-question question=model update="update"}}
       </div>
       <div class="answers-display">
-          <!-- <h2> All Answers </h2>
-
-          <ul>
-            {{#each model.answers as |answer|}}
-              <li>{{answer.content}} - by {{answer.author}}</li>
-            {{/each}}
-          </ul> -->
 
         {{new-answer saveAnswer="saveAnswer" question=model}}
       </div>

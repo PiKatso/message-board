@@ -6,7 +6,7 @@
   <div class="answer-detail">
     <h4>Response to "{{question.question}}"</h4>
     {{#each question.answers as |answer|}}
-      {{answer-tile answer=answer}}
+      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
     {{/each}}
   </div>
   <br>
