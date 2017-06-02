@@ -1,5 +1,5 @@
 <div class="index-question">
-  <p>{{#link-to 'question'}}<strong>{{question.question}}</strong>{{/link-to}} - {{question.author}}</p>
+  <p>{{#link-to 'question' question.id}}<strong>{{question.question}}</strong>{{/link-to}} - {{question.author}}</p>
 
   <button {{action 'delete' question}}>Delete Question</button>
 </div>
