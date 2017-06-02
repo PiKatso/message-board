@@ -1,7 +1,16 @@
-<div class="question-details">
-  <h2>{{model.question}}</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="question-details">
+        <h2>{{model.question}}</h2>
 
-  {{question-details question=model destroyQuestion="destroyQuestion"}}
+        {{question-details question=model destroyQuestion="destroyQuestion"}}
 
-  {{update-question question=model update="update"}}
+        {{update-question question=model update="update"}}
+      </div>
+      <div class="answers-display">
+
+      </div>
+    </div>
+  </div>
 </div>

@@ -13,5 +13,12 @@
     "question": "Do you use a different name at Starbucks (as some people do)?",
     "content": "general curiosities about the human experience",
     "notes": "if yes, why?"
+  }],
+  "answers": [{
+    "author": "Kat",
+    "content": "thats a great question"
+  }, {
+    "author": "Noah",
+    "content": "I'm stumped, try reddit"
   }]
 }
