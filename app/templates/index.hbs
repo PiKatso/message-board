@@ -2,11 +2,11 @@
 
 <div class="display">
   {{#each model as |question|}}
-     {{question-tile question=question destroyQuestion="destroyQuestion"}}
+     {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
   {{/each}}
 </div>
 
 <h3>What is your question?</h3>
-<div class="">
+<div class="add-question">
   {{new-question saveQuestion2="saveQuestion3"}}
 </div>

@@ -1,5 +1,7 @@
 <div class="index-question">
   <p>{{#link-to 'question' question.id}}<strong>{{question.question}}</strong>{{/link-to}} - {{question.author}}</p>
+  
+  {{update-question question=question update="update"}}
 
   <button {{action 'delete' question}}>Delete Question</button>
 </div>
