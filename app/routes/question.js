@@ -16,7 +16,12 @@ export default Ember.Route.extend({
     },
 
     destroyQuestion(question) {
-      question.destroyRecord();
+      var destroy_orphans = question.get('answers').map(function(answer) {
+        return answer.destroyRecord();
+      });
+      Ember.RSVP.all(destroy_orphans).then(function(){
+        return question.destroyRecord();
+      });
       this.transitionTo('index');
     },
 
@@ -29,6 +34,7 @@ export default Ember.Route.extend({
       });
       this.transitionTo('question', question);
     },
+
     destroyAnswer(answer) {
       answer.destroyRecord();
       this.transitionTo('question');
