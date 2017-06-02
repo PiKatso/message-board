@@ -1,9 +1,10 @@
 <h4>Peruse some Questions</h4>
 
-<ul>
+<div class="display">
   {{#each model as |question|}}
-     <p>{{question.author}} ~  <strong>{{question.question}}</strong></p>
+     {{question-tile question=question}}
+       <!-- <p><strong>{{question.question}}</strong> ~  {{question.author}}</p> -->
   {{/each}}
-</ul>
+</div>
 
 <h3>What is your question?</h3>
