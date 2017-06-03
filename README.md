@@ -4,12 +4,14 @@ This project uses Ember JS to create a message board. Where in the user can post
 
 ### Specs
 
-* _Questions should include the content of the question itself, an author, and additional notes._
-* _Answers should include the content of the answer and the author._
-* _List all questions on the homepage, displaying only the question and the name of the author._
-* _This ap should allow users to click a question, to be routed to another page containing additional information and question details._
-* _This ap should allow users to add and edit questions_
-* _This ap should allow users to add answers to a question. Answers should be linked to the corresponding question page they respond to_
+* _Questions include the content of the question itself, an author, and additional notes_
+* _Answers include the content of the answer and the author_
+* _All questions are viewable on the homepage, displaying only the question and the name of the author_
+* _All questions are links to be routed to their individual page with additional info and question details_
+* _This ap allows users to add and edit questions_
+* _This ap allows users to add answers to a question. Answers are linked to the corresponding question page they respond to_
+
+![](https://github.com/PiKatso/message-board/blob/master/public/images/screenshot.jpg)
 
 ## Prerequisites
 
